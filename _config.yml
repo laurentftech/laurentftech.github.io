@@ -1,6 +1,18 @@
 title: 👨‍💻 LaurentFTech
 description: "Home"
 theme: minima
+author: "Laurent FRANCOISE"
+
+theme: minima
+
+# Minima social links
+github_username: laurentftech
+
+# Minima: show excerpts in the frontpage
+show_excerpts: true
+
+minima:
+  date_format: "%Y-%m-%d"
 
 # Navigation
 # Minima: custom header links
