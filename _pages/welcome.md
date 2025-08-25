@@ -1,7 +1,10 @@
 ---
 layout: home
 title: "Welcome"
+permalink : /
 ---
+
+
 ## 👋 Hi, I'm Laurent
 
 System Engineer | Software Enthusiast | Problem Solver
