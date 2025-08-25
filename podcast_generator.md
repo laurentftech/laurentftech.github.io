@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect_to: https://laurentftech.github.io/Podcast_generator
+permalink: https://laurentftech.github.io/Podcast_generator
 ---

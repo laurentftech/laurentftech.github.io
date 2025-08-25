@@ -2,7 +2,7 @@
 layout: home
 title: "LaurentFTech Website"
 ---
-# 👋 Hi, I'm Laurent
+## 👋 Hi, I'm Laurent
 
 System Engineer | Software Enthusiast | Problem Solver
 
