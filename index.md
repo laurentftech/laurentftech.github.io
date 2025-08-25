@@ -1,4 +1,3 @@
-# 👨‍💻 LaurentFTech
 
 System Engineer | Software Enthusiast | Problem Solver
 
