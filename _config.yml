@@ -5,4 +5,4 @@ theme: minima
 # Navigation
 header_pages:
   - index.md
-  - podcast_generator.md
+  - podcast_generator.html
