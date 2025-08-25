@@ -1,5 +1,3 @@
-# Presentation
-
 System Engineer | Software Enthusiast | Problem Solver
 
 ## 🔧 What I Do
@@ -14,10 +12,3 @@ I build practical tools that simplify everyday tasks, focusing on reliability an
 ## 🤝 Let's Connect
 
 Feel free to reach out for collaboration or to discuss tech!
-
-# Navigation
-nav:
-  - title: Accueil
-    url: /
-  - title: Podcast Generator
-    url: https://laurentftech.github.io/Podcast_generator
