@@ -3,8 +3,6 @@ description: "LaurentFTech web site"
 theme: minima
 
 # Navigation
-nav:
-  - title: Presentation
-    url: /
-  - title: Podcast Generator
-    url: https://laurentftech.github.io/Podcast_generator
+header_pages:
+  - index.md
+  - podcast_generator.md
