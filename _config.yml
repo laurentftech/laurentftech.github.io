@@ -3,6 +3,10 @@ description: "Home"
 theme: minima
 
 # Navigation
+# Minima: custom header links
 header_pages:
-  - index.md
-  - podcast_generator.html
+  - _pages/welcome.md
+  - _pages/podcast_generator.md
+
+include:
+    - _pages
