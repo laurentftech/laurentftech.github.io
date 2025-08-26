@@ -19,5 +19,5 @@ include:
     - _pages
 
 plugins:
-  - jekyll-redirect-from
+    - jekyll-redirect-from
 
