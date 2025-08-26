@@ -13,10 +13,6 @@ show_excerpts: true
 
 minima:
   date_format: "%Y-%m-%d"
-
-# Navigation
-# Minima: custom header links
-minima:
   nav_pages:
     - _pages/welcome.md
     - _pages/podcast_generator.html
