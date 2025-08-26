@@ -14,7 +14,7 @@ show_excerpts: true
 minima:
   date_format: "%Y-%m-%d"
   nav_pages:
-    - _pages/welcome.md
+    - index.md
     - _pages/podcast_generator.md
 
 include:
