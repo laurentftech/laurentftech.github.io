@@ -12,7 +12,7 @@ I build practical tools that simplify everyday tasks, focusing on reliability an
 
 ## 🚀 Current Projects
 
-- **[Podcast Generator](https://laurentftech.github.io/Podcast_generator)**: A tool to generate podcasts with multiple voices from scripts.
+- **[Podcast Generator](https://laurentftech.github.io/Podcast_generator)**: A simple tool yet powerful to generate high quality podcasts with multiple voices from scripts.
 - **Language Learning Tools**: Developing resources to aid in language acquisition.
 
 ## 🤝 Let's Connect
