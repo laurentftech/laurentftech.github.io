@@ -16,7 +16,7 @@ minima:
 
 # Navigation
 # Minima: custom header links
-nav_pages:
+header_pages:
   - _pages/welcome.md
   - _pages/podcast_generator.html
 
