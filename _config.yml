@@ -12,7 +12,7 @@ github_username: laurentftech
 show_excerpts: true
 
 header_pages:
-    _ index.md
+    - index.md
     - _pages/podcast_generator.md
 
 include:
