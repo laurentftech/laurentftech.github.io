@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "LaurentFTech Website"
+title: "Welcome"
 ---
 ## 👋 Hi, I'm Laurent
 
