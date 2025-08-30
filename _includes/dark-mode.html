@@ -19,7 +19,7 @@
     --text-color: #e0e0e0;
     --link-color: #bb86fc;
     --link-hover-color: #9e66e2;
-    --secondary-text-color: #aaa;
+    --secondary-text-color: #bdbdbd; /* Gris plus clair pour un meilleur contraste */
     --header-color: #e0e0e0;
     --border-color: #333;
     --code-bg-color: #2a2a2a; /* Un gris foncé pour le fond du code */
@@ -47,6 +47,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style pour le sous-titre sous un h2 */
 h2 + p {
+  color: var(--secondary-text-color);
+}
+
+/* S'assure que la description du site est lisible en mode sombre */
+.site-description {
   color: var(--secondary-text-color);
 }
 
