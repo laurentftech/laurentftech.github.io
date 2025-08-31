@@ -56,19 +56,15 @@ h2 + p {
   color: var(--secondary-text-color);
 }
 
-/* Correction des bordures pour le header et le footer */
-.site-header {
-  border-bottom-color: var(--border-color);
-}
-
 .site-footer {
   border-top-color: var(--border-color);
 }
 
 /* --- Styles pour les titres de page et les tableaux --- */
 
-/* Assure que le titre principal de la page est clair */
-.post-title {
+/* Assure que les titres de page et de post (liés ou non) sont clairs */
+.post-title,
+.post-link {
   color: var(--header-color);
 }
 
@@ -86,6 +82,11 @@ code, pre {
 
 /* --- Styles pour le header --- */
 
+/* Correction de la bordure du header */
+.site-header {
+  border-bottom-color: var(--border-color);
+}
+
 /* Fond et bordure pour le menu de navigation mobile (hamburger) */
 @media screen and (max-width: 600px) {
   .site-nav input:checked ~ .trigger {
@@ -98,13 +99,14 @@ code, pre {
 }
 
 /* Couleur des liens de navigation et du titre du site */
-.site-title,
-.page-link {
+.site-header .site-title,
+.site-header .page-link,
+.site-header .page-link:visited {
   color: var(--text-color);
 }
 
 /* Couleur de l'icône du menu hamburger */
-.menu-icon > svg path {
+.site-header .menu-icon > svg path {
   fill: var(--header-color);
 }
 </style>
