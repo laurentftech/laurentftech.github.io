@@ -65,6 +65,19 @@ h2 + p {
   border-top-color: var(--border-color);
 }
 
+/* --- Styles pour les titres de page et les tableaux --- */
+
+/* Assure que le titre principal de la page est clair */
+.post-title {
+  color: var(--header-color);
+}
+
+/* Assure que le texte et les bordures des tableaux sont clairs */
+th, td {
+  color: var(--table-text-color);
+  border-color: var(--border-color);
+}
+
 /* Style pour les blocs de code qui s'adapte */
 code, pre {
   background-color: var(--code-bg-color);
@@ -72,6 +85,17 @@ code, pre {
 }
 
 /* --- Styles pour le header --- */
+
+/* Fond et bordure pour le menu de navigation mobile (hamburger) */
+@media screen and (max-width: 600px) {
+  .site-nav input:checked ~ .trigger {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-top: 0; /* Le header a déjà une bordure en bas */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
 
 /* Couleur des liens de navigation et du titre du site */
 .site-title,
