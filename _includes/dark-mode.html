@@ -109,4 +109,13 @@ code, pre {
 .site-header .menu-icon > svg path {
   fill: var(--header-color);
 }
+
+/* En mode sombre, donne un fond à l'icône pour créer l'effet "bouton" demandé */
+@media (prefers-color-scheme: dark) {
+  .site-header .menu-icon {
+    background-color: #383838; /* Le fond gris pour le bouton */
+    border-radius: 5px;
+    padding: 8px 6px 4px 6px; /* Espace pour que le fond soit visible autour des traits */
+  }
+}
 </style>
