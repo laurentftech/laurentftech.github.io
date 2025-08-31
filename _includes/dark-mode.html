@@ -89,12 +89,10 @@ code, pre {
 
 /* Fond et bordure pour le menu de navigation mobile (hamburger) */
 @media screen and (max-width: 600px) {
-  .site-nav input:checked ~ .trigger {
+  /* Le conteneur de navigation mobile a un fond et une bordure clairs par défaut, on les corrige. */
+  .site-nav {
     background-color: var(--bg-color);
-    border: 1px solid var(--border-color);
-    border-top: 0; /* Le header a déjà une bordure en bas */
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-color: var(--border-color);
   }
 }
 
