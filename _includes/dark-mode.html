@@ -10,6 +10,7 @@
   --border-color: #ddd;
   --code-bg-color: #eef; /* Fond par défaut de Minima */
   --code-border-color: #ddd;
+  --icon-color: #222; /* Un gris plus foncé pour l'icône en mode clair */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +26,7 @@
     --border-color: #333;
     --code-bg-color: #2a2a2a; /* Un gris foncé pour le fond du code */
     --code-border-color: #444; /* Une bordure légèrement plus claire */
+    --icon-color: #f5f5f5; /* Un blanc cassé pour l'icône en mode sombre */
   }
 }
 
@@ -107,6 +109,6 @@ code, pre {
 
 /* Couleur de l'icône du menu hamburger */
 .site-header .menu-icon > svg path {
-  fill: var(--header-color);
+  fill: var(--icon-color);
 }
 </style>
