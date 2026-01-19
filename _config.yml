@@ -15,6 +15,7 @@ header_pages:
     - index.md
     - _pages/podcast_generator.md
     - _pages/kidsearch.md
+    - _pages/ntfy-macos.md
 
 include:
     - _pages
